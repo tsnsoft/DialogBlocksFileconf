@@ -10,7 +10,7 @@
     <bool name="archive_image_files">1</bool>
     <bool name="archive_xrc_files">1</bool>
     <string name="author">""</string>
-    <string name="configuration">"VC++ Project Unicode Debug"</string>
+    <string name="configuration">"VC++ Project Unicode Release"</string>
     <string name="copyright_string">"Talipov S.N."</string>
     <string name="cpp_function_declaration_comment">"	/// %BODY%
 "</string>
@@ -392,9 +392,9 @@
         <long name="title-mode">0</long>
         <long name="locked">1</long>
         <document>
-          <string name="title">"DialogBlocksFileсonf.rc"</string>
+          <string name="title">"DialogBlocksFileconf.rc"</string>
           <string name="type">"source-editor-document"</string>
-          <string name="filename">"DialogBlocksFileсonf.rc"</string>
+          <string name="filename">"DialogBlocksFileconf.rc"</string>
           <string name="icon-name">"source-editor"</string>
           <long name="is-transient">0</long>
           <long name="owns-file">0</long>
@@ -404,9 +404,9 @@
           <string name="language">""</string>
         </document>
         <document>
-          <string name="title">"DialogBlocksFileсonf.vcxproj"</string>
+          <string name="title">"DialogBlocksFileconf.vcxproj"</string>
           <string name="type">"source-editor-document"</string>
-          <string name="filename">"DialogBlocksFileсonf.vcxproj"</string>
+          <string name="filename">"DialogBlocksFileconf.vcxproj"</string>
           <string name="icon-name">"source-editor"</string>
           <long name="is-transient">0</long>
           <long name="owns-file">0</long>
