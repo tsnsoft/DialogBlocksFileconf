@@ -11,7 +11,7 @@ CONFIG=unicodedebug
 
 # unicodedebug
 ifeq ($(CONFIG),unicodedebug)
-WXWIN=D:/Development/wxWidgets
+WXWIN=D:/Development/RedPanda-CPP/wxWidgets
 GCCFLAGS=
 CXX=g++.exe
 LINKER=g++.exe
@@ -36,7 +36,7 @@ EXTRADEPENDENCIES=
 
 # unicoderelease
 else
-WXWIN=D:/Development/wxWidgets
+WXWIN=D:/Development/RedPanda-CPP/wxWidgets
 GCCFLAGS=
 CXX=g++.exe
 LINKER=g++.exe

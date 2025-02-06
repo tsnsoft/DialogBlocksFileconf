@@ -1,4 +1,4 @@
-﻿WXWIN          D:\Development\wxWidgets
+﻿WXWIN          D:\Development\RedPanda-CPP\wxWidgets
 DBPROJECTS     D:\Projects\DialogBlocksProjects
 MINGWDIR       D:\Development\RedPanda-CPP\mingw64
 MSBUILDDIR     C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin
