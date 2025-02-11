@@ -204,7 +204,7 @@
           <string name="Compiler name">"VC++ Project"</string>
           <string name="Compiler version">"%AUTO%"</string>
           <string name="Debug flags">"%AUTO%"</string>
-          <bool name="dirty">1</bool>
+          <bool name="dirty">0</bool>
           <bool name="Enable .sln generation">1</bool>
           <bool name="Enable makefile generation">1</bool>
           <string name="Executable name">"%EXECUTABLE%"</string>
@@ -287,7 +287,7 @@
           <string name="Compiler name">"VC++ Project"</string>
           <string name="Compiler version">"%AUTO%"</string>
           <string name="Debug flags">"%AUTO%"</string>
-          <bool name="dirty">1</bool>
+          <bool name="dirty">0</bool>
           <bool name="Enable .sln generation">1</bool>
           <bool name="Enable makefile generation">1</bool>
           <string name="Executable name">"%EXECUTABLE%"</string>
@@ -317,7 +317,7 @@
           <string name="Pre-build command">"%AUTO%"</string>
           <string name="Pre-link command">"%AUTO%"</string>
           <string name="Preprocessor flags">"%AUTO%"</string>
-          <string name="Processor type">"Default"</string>
+          <string name="Processor type">"64-bit"</string>
           <string name="Program arguments">""</string>
           <string name="Project build command">"%AUTO%"</string>
           <string name="Project clean command">"%AUTO%"</string>

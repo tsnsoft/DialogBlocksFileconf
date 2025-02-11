@@ -1,0 +1,97 @@
+﻿# Настройки конфигураций в DialogBlocks для компиляции MS Visual Studio 2022
+
+## Paths
+
+|-------------|------|
+| WXWIN       | `D:\Development\RedPanda-CPP\wxWidgets` |
+| DBPROJECTS  | `D:\Projects\DialogBlocksProjects` |
+| MINGWDIR    | `D:\Development\RedPanda-CPP\mingw64` |
+| MSBUILDDIR  | `C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin` |
+| MSVCDIR     | `C:\Program Files\Microsoft Visual Studio\2022\Community` |
+| PLATFORMSDK | `C:\Program Files (x86)\Windows Kits\10` |
+
+## Global Default
+
+|----------------------------------------|------------|
+| Translate strings                      | ✅         |
+| Make Unicode strings source-friendly   | ✅         |
+| Target wxWidgets version               | `3.2.6`    |
+| VC++ version                           | `17`       |
+| VC++ tools version                     | `14.42.34433` |
+| Full Platform SDK version              | `10.0.22621.0` |
+| Source encoding                        | `utf-8`    |
+| Project encoding                       | `utf-8`    |
+| Message encoding                       | `utf-8`    |
+
+
+## Compiler configurations:
+
+---
+
+[x] **VC++ Project Unicode Debug/Release**
+
+## Configuration settings:
+
+### Basic
+
+|-----------------|---------------|
+| Build mode      | Debug/Release |
+| Unicode mode    | Unicode       |
+| Shared mode     | Static        |
+| Modularity      | Modular       |
+| GUI mode        | Console/GUI   |
+| Toolkit         | wxMSW         |
+| Processor type  | Default(32-bit)/64-bit        |
+| Runtime linking | Dynamic       |
+
+### Flags
+
+|----------------------|----------------|
+|  Extra compile flags | %AUTO% /utf-8  |
+
+---
+
+[x] **MinGW Unicode Debug**
+
+## Configuration settings:
+
+### Basic
+
+|-----------------|--------|
+| Build mode      | Debug  |
+| Unicode mode    | Unicode |
+| Shared mode     | Static  |
+| Modularity      | Monolithic |
+| GUI mode        | GUI |
+| Toolkit         | wxMSW |
+| Processor type  | Default |
+| Runtime linking | Static |
+| Use exceptions  | Yes |
+
+### Flags
+
+|-----------------|--------|
+| Libraries       | `-mthreads -lwxmsw32ud_core -lwxbase32ud -lwxpngd -lwxjpegd -lwxtiffd -lwxzlibd -lwxregexud -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -mwindows -lstdc++` |
+
+---
+
+[x] **MinGW Unicode Release**
+
+### Basic
+
+|-----------------|--------|
+| Build mode      | Release |
+| Unicode mode    | Unicode |
+| Shared mode     | Static  |
+| Modularity      | Monolithic |
+| GUI mode        | GUI |
+| Toolkit         | wxMSW |
+| Processor type  | Default |
+| Runtime linking | Static |
+| Use exceptions  | Yes |
+
+### Flags
+
+|-----------------|--------|
+| Libraries       | `-mthreads -lwxmsw32u_core -lwxbase32u -lwxpng -lwxjpeg -lwxtiff -lwxzlib -lwxregexu -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -mwindows -lstdc++` |
+
