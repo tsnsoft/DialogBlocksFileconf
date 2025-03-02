@@ -73,7 +73,9 @@
 |-----------------|--------|
 | Libraries       | `-mthreads -lwxmsw32ud_core -lwxbase32ud -lwxpngd -lwxjpegd -lwxtiffd -lwxzlibd -lwxregexud -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -mwindows -lstdc++` |
 
-*__Если приложение консольное, то флаг "-mwindows" не нужен !__*
+✅  *__Если приложение консольное, то флаг "-mwindows" не нужен !__*
+
+✅  *__Если приложение не должно зависеть от других файлов (т.е. нужен портативный файл), то нужно добавить еще флаг "-static"__*
 
 ---
 
@@ -97,4 +99,29 @@
 |-----------------|--------|
 | Libraries       | `-mthreads -lwxmsw32u_core -lwxbase32u -lwxpng -lwxjpeg -lwxtiff -lwxzlib -lwxregexu -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -mwindows -lstdc++` |
 
-*__Если приложение консольное, то флаг "-mwindows" не нужен !__*
+✅  *__Если приложение консольное, то флаг "-mwindows" не нужен !__*
+
+✅  *__Если приложение не должно зависеть от других файлов (т.е. нужен портативный файл), то нужно добавить еще флаг "-static"__*
+
+
+---
+
+# Вариант конфигурации проекта Visual Studio 2022 через системную переменную Windows
+
+## Все конфигурации проекта для всех платформ:
+- **C/C++ → Дополнительные каталоги включаемых файлов**:  
+  ```$(wxwin)\include\msvc;$(wxwin)\include```
+
+## Все конфигурации проекта для x64:
+- **Компоновщик → Дополнительные каталоги библиотек**:  
+  ```$(wxwin)\lib\vc_x64_lib```
+
+## Все конфигурации проекта для Win32:
+- **Компоновщик → Дополнительные каталоги библиотек**:  
+  ```$(wxwin)\lib\vc_lib```
+
+---
+
+## Системная переменная Windows:
+- **wxwin**:  
+  ```D:\Development\RedPanda-CPP\wxWidgets```
