@@ -10,7 +10,7 @@
     <bool name="archive_image_files">1</bool>
     <bool name="archive_xrc_files">1</bool>
     <string name="author">""</string>
-    <string name="configuration">"MinGW Unicode Release"</string>
+    <string name="configuration">"Release"</string>
     <string name="copyright_string">"Talipov S.N."</string>
     <string name="cpp_function_declaration_comment">"	/// %BODY%
 "</string>
@@ -91,7 +91,7 @@
     <string name="resource_prefix">""</string>
     <string name="resource_xrc_cpp">""</string>
     <string name="source_encoding">"utf-8"</string>
-    <string name="target_wx_version">"3.2.4"</string>
+    <string name="target_wx_version">"3.3.0"</string>
     <long name="text_file_type">0</long>
     <string name="title">""</string>
     <bool name="translate_strings">0</bool>
@@ -204,7 +204,7 @@
           <string name="Compiler name">"VC++ Project"</string>
           <string name="Compiler version">"%AUTO%"</string>
           <string name="Debug flags">"%AUTO%"</string>
-          <bool name="dirty">1</bool>
+          <bool name="dirty">0</bool>
           <bool name="Enable .sln generation">1</bool>
           <bool name="Enable makefile generation">1</bool>
           <string name="Executable name">"%EXECUTABLE%"</string>
@@ -234,7 +234,7 @@
           <string name="Pre-build command">"%AUTO%"</string>
           <string name="Pre-link command">"%AUTO%"</string>
           <string name="Preprocessor flags">"%AUTO%"</string>
-          <string name="Processor type">"Default"</string>
+          <string name="Processor type">"64-bit"</string>
           <string name="Program arguments">""</string>
           <string name="Project build command">"%AUTO%"</string>
           <string name="Project clean command">"%AUTO%"</string>
@@ -287,7 +287,7 @@
           <string name="Compiler name">"VC++ Project"</string>
           <string name="Compiler version">"%AUTO%"</string>
           <string name="Debug flags">"%AUTO%"</string>
-          <bool name="dirty">1</bool>
+          <bool name="dirty">0</bool>
           <bool name="Enable .sln generation">1</bool>
           <bool name="Enable makefile generation">1</bool>
           <string name="Executable name">"%EXECUTABLE%"</string>
@@ -379,7 +379,7 @@
           <string name="icon-name">""</string>
           <string name="Include path">"%AUTO%"</string>
           <long name="is-transient">0</long>
-          <string name="Libraries">"-mthreads -lwxmsw32ud_core -lwxbase32ud -lwxpngd -lwxjpegd -lwxtiffd -lwxzlibd -lwxregexud -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -lstdc++ -static"</string>
+          <string name="Libraries">"-mthreads -lwxmsw33ud_core -lwxbase33ud -lgdiplus -lmsimg32 -lwxpngd -lwxjpegd -lwxtiffd -lwxzlibd -lwxregexud -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -lstdc++ -lsqlite3 -static"</string>
           <string name="Library path">"%AUTO%"</string>
           <string name="Linker command">"%AUTO%"</string>
           <string name="Linker flags">"%AUTO%"</string>
@@ -450,7 +450,7 @@
           <string name="icon-name">""</string>
           <string name="Include path">"%AUTO%"</string>
           <long name="is-transient">0</long>
-          <string name="Libraries">"-mthreads -lwxmsw32u_core -lwxbase32u -lwxpng -lwxjpeg -lwxtiff -lwxzlib -lwxregexu -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -lstdc++ -static"</string>
+          <string name="Libraries">"-mthreads -lwxmsw33u_core -lwxbase33u -lgdiplus -lmsimg32 -lwxpng -lwxjpeg -lwxtiff -lwxzlib -lwxregexu -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -lstdc++ -lsqlite3 -static"</string>
           <string name="Library path">"%AUTO%"</string>
           <string name="Linker command">"%AUTO%"</string>
           <string name="Linker flags">"%AUTO%"</string>
